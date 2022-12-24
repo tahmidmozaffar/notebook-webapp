@@ -27,11 +27,11 @@ export default function Home() {
           <Image
             className={styles.login__welcome_back__logo_container__image}
             src="/logo.png"
-            alt="Budwriter"
+            alt="Notebook"
             width={100}
             height={24}
           />
-          Budwriter
+          Notebook
         </div>
         <div className={styles.login__welcome_back__main_container}>
           <div className={styles.login__welcome_back__main_container__text_container}>
@@ -159,26 +159,25 @@ export default function Home() {
             height={100}
             alt="Budwriter"
           />
-          Budwriter
+          Notebook
         </div>
         <div className={styles.login__login_container__main_container}>
-          {/* <div className="login__login_container__main_container__social_container">
-            <img
-              className="login__login_container__main_container__social_container__facebook_icon"
-              src={facebook}
+          <div className={styles.login__login_container__main_container__social_container}>
+            <Image
+              className={styles.login__login_container__main_container__social_container__facebook_icon}
+              src="/facebook.svg"
+              width={100}
+              height={100}
               alt=""
             />
-            <img
-              className="login__login_container__main_container__social_container__google_icon"
-              src={google}
+            <Image
+              className={styles.login__login_container__main_container__social_container__google_icon}
+              src="/google.svg"
+              width={100}
+              height={100}
               alt=""
-            />
-            <img
-              className="login__login_container__main_container__social_container__linkedin_icon"
-              src={linkedin}
-              alt=""
-            />
-          </div> */}
+            />            
+          </div>
           <span className={styles.login__login_container__main_container__info_text}>
             or use email for your login
           </span>
