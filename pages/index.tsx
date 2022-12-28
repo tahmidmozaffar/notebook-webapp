@@ -20,13 +20,13 @@ export default function Home() {
         type="text"
         required
         placeholder="Username"
-        className={` ${styles.textinput}`}
+        className={styles.textinput}
       />
       <input
         type="password"
         required
         placeholder="Password"
-        className={` ${styles.textinput1}`}
+        className={styles.textinput1}
       />
       <button
         className={` ${styles.button}`}
