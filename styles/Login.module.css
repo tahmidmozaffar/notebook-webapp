@@ -1,0 +1,65 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+  background-image: url(../assets/images/notebook.png);
+}
+.text {
+  font-size: 3em;
+  font-family: Merriweather;
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.textinput {
+  width: 400px;
+  height: var(--dl-size-size-small);
+  align-self: center;
+  border-style: solid;
+  margin-bottom: var(--dl-space-space-unit);
+  padding: 8px;
+  border: none;
+}
+.textinput1 {
+  width: 400px;
+  height: var(--dl-size-size-small);
+  align-self: center;
+  text-align: left;
+  padding: 8px;
+  border: none;
+}
+.button {
+  color: var(--dl-color-gray-white);
+  width: 400px;
+  height: var(--dl-size-size-small);
+  display: flex;
+  margin-top: var(--dl-space-space-fourunits);
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-danger-300);
+}
+.button:hover {
+  background-color: var(--dl-color-danger-500);
+}
+.text1 {
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.text1:hover {
+  text-decoration: underline;
+  
+}
