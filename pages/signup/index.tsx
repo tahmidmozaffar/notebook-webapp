@@ -46,7 +46,7 @@ const Signup = () => {
         placeholder="Confirm Password"
         className={` ${styles.textinput1}`}
       />
-      <button className={` ${styles.button}`}>Login</button>
+      <button className={` ${styles.button}`}>Signup</button>
       <Link
         href=""
         className={styles.text1}

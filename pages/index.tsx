@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import styles from "../styles/common.module.css";
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className={styles["container"]}>
       <Image
@@ -25,7 +28,12 @@ export default function Home() {
         placeholder="Password"
         className={` ${styles.textinput1}`}
       />
-      <button className={` ${styles.button}`}>Login</button>
+      <button
+        className={` ${styles.button}`}
+        onClick={() => router.replace("/dashboard")}
+      >
+        Login
+      </button>
       <Link href="/signup" className={styles.text1}>
         <span>Don&apos;t have an account? Signup here.</span>
       </Link>
