@@ -2,12 +2,12 @@ import CategoryItem from "../../components/category_item";
 import Spacer from "../../components/spacer";
 import { folders } from "../../data";
 import Image from "next/image";
-import styles from "./folders.module.css";
+import styles from "./folderlist.module.css";
 
 const Folders = () => {
   return (
-    <div style={{width: 270}}>
-      <div style={{ overflow: "scroll", height: "84vh" }}>
+    <div style={{width: 270, marginTop: 32}}>
+      <div style={{ overflow: "scroll", height: "80vh" }}>
         {folders.map((folder) => (
           <CategoryItem
             key={folder.id}

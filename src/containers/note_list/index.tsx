@@ -4,16 +4,16 @@ import { notesInMonths } from "../../data";
 
 const NoteList = () => {
   return (
-    <div style={{ backgroundColor: "", padding: 10,  overflow: "scroll", height: "90vh" }}>
+    <div style={{ padding: 10,  overflow: "scroll", height: "90vh" }}>
       {notesInMonths.map((note1) => {
         return (
-          <>
+          <div key={note1.month}>
             <h5 style={{color: 'white'}}>{note1.month}</h5>
             {note1.notes.map((note) => (
               <NoteListItem key={note.id} note={note}/>
             ))}
             <Spacer height={20} />
-          </>
+          </div>
         );
       })}
     </div>
