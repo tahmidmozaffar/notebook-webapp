@@ -63,7 +63,7 @@
     align-self: center;
     margin-bottom: var(--dl-space-space-unit);
     padding: 8px;
-    border: none;    
+    border: none;
     transition: 0.3s;
     background-color: #17191a;
   }
@@ -75,7 +75,7 @@
     text-align: left;
     padding: 8px;
     border: none;
-    margin-bottom: var(--dl-space-space-unit);    
+    margin-bottom: var(--dl-space-space-unit);
     transition: 0.3s;
     background-color: #17191a;
   }

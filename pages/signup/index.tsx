@@ -20,33 +20,33 @@ const Signup = () => {
         type="text"
         required
         placeholder="Full Name"
-        className={` ${styles.textinput}`}
+        className={styles.textinput}
       />
       <input
         type="text"
         required
         placeholder="Username"
-        className={` ${styles.textinput}`}
+        className={styles.textinput}
       />
       <input
         type="email"
         required
         placeholder="Email"
-        className={` ${styles.textinput}`}
+        className={styles.textinput}
       />
       <input
         type="password"
         required
         placeholder="Password"
-        className={` ${styles.textinput1}`}
+        className={styles.textinput1}
       />
       <input
         type="password"
         required
         placeholder="Confirm Password"
-        className={` ${styles.textinput1}`}
+        className={styles.textinput1}
       />
-      <button className={` ${styles.button}`}>Signup</button>
+      <button className={styles.button}>Signup</button>
       <Link
         href=""
         className={styles.text1}

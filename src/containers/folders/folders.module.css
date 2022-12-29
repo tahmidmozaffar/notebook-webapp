@@ -3,7 +3,6 @@
   height: var(--dl-size-size-small);
   align-self: center;
   margin: 10px;
-  /* margin-bottom: var(--dl-space-space-unit); */
   padding: 8px;
   transition: 0.3s;
   border: none;
