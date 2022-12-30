@@ -1,3 +1,7 @@
+.flex {
+  display: flex;
+}
+
 .container {
   width: 100%;
   display: flex;

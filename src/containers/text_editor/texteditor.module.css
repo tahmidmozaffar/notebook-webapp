@@ -1,7 +1,28 @@
-.editor {
-  background-color: rgb(202, 225, 204);
-  width: 62vw;
-  height: 80vh;
+.container {
+  padding: 10px;
   margin-top: 32px;
-  padding-bottom: 45px;  
+}
+
+.editor {
+  background-color: #cae1cc;
+  width: 62vw;
+  height: 76vh;
+  margin-top: 32px;
+  padding-bottom: 45px; 
+  transition: 0.3s; 
+}
+
+.title {
+  flex: 1;
+  margin-right: 100px;
+  padding: 10px;
+  color: black;
+  background: #cae1cc;
+}
+
+.button {
+  color: var(--dl-color-gray-white);  
+  width: 100px;  
+  transition: 0.3s;  
+  background-color: var(--dl-color-danger-300);
 }
