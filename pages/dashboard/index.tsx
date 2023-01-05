@@ -4,12 +4,17 @@ import Folders from "../../src/containers/folder_list";
 import NoteList from "../../src/containers/note_list";
 import Spacer from "../../src/components/spacer";
 import TextEditor from "../../src/containers/text_editor";
+import { useEffect } from "react";
 
 const Dashboard = () => {
+  useEffect(() => {
+    console.log(localStorage.getItem("token"));
+  }, []);
+  
   return (
     <div className={styles.container}>
       <Header />
-      <div style={{ display: "flex", flexDirection: "row", paddingLeft: 25 }}>        
+      <div style={{ display: "flex", flexDirection: "row", paddingLeft: 25 }}>
         <Folders />
         <Spacer width={20} />
         <NoteList />
