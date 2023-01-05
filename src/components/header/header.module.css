@@ -26,3 +26,18 @@
 .profile_icon {
   align-self: flex-end;
 }
+
+.name {
+  color: white;
+  margin-right: 30px;
+}
+
+.logout {
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  color: rgb(124, 117, 117);
+}
